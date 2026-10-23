@@ -33,3 +33,6 @@ The site uses a centered, confined layout with clear outer margins and a romanti
 ## Independent project notice
 
 This is an independent Christian marriage devotional and coaching project. It is not affiliated with or endorsed by the creators or publishers of the original *The Love Dare* book. All daily reflections and challenges on this site are original content written for this project.
+
+
+Public permitted use terms: https://brad-hobbswd.github.io/40-day-love-dare/permitted-use.html
