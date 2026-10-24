@@ -29,3 +29,10 @@ body{background:#e9dfd8;padding:0 clamp(10px,2.4vw,34px) 24px}
 }
 
 .daily-page{max-width:900px!important}.daily-top{padding:clamp(1.5rem,4vw,3rem);text-align:center;background:linear-gradient(135deg,#f4e6df,#fffaf4);border:1px solid var(--line);border-radius:18px}.daily-top h1{margin:.4rem 0 .8rem;color:var(--burgundy);font-size:clamp(2rem,5vw,3.4rem);font-weight:normal;line-height:1.15}.daily-top .text-link{display:inline-block;margin-bottom:1.5rem}.daily-content{max-width:760px;margin:1.8rem auto;padding:clamp(1.3rem,4vw,2.5rem);background:var(--ivory);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}.daily-content section{margin:0 0 1.8rem}.daily-content h2{color:var(--burgundy);font-size:1.45rem;font-weight:normal;margin:0 0 .5rem}.daily-content p{margin:.5rem 0}.daily-challenge{padding:1.3rem 1.4rem;background:#f7eee7;border-left:3px solid var(--gold);border-radius:0 10px 10px 0}.daily-prayer{padding-top:1rem;border-top:1px solid var(--line);font-style:italic}.daily-reminder{font-size:.82rem;color:var(--muted);padding-top:1rem;border-top:1px solid var(--line)}.day-pagination{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;max-width:760px;margin:0 auto}.day-card{display:flex;flex-direction:column;align-items:flex-start}.day-card .text-link{margin-top:auto;padding-top:1rem}.daily-page h1,.section-wrap>h1{color:var(--burgundy);font-weight:normal}@media(max-width:640px){.daily-top{padding:1.3rem 1rem}.daily-content{padding:1.25rem;margin-top:1rem}.day-pagination{flex-direction:column}.day-pagination .button{width:100%}}
+
+
+/* About page readability fix: this page uses a light background, not the dark about-section panel. */
+.section-wrap .about-layout h1{color:var(--burgundy)}
+.section-wrap .about-layout .eyebrow{color:var(--sage)}
+.section-wrap .about-layout p:not(.eyebrow){color:var(--ink)}
+.section-wrap .about-layout .button-outline{color:var(--burgundy)}
